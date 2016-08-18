@@ -1,0 +1,17 @@
+name: MCToon
+main: yuu528\MCToon\Main
+version: 1.0
+description: Splatoonの再現プラグイン
+api: 1.10.0
+load: POSTWORLD
+author: yuu528
+
+commands:
+ mcto:
+  description: MCToon OPコマンド
+  usage: /mcto <args>
+  permission: mctoon.cmd.op
+
+permissions:
+ mctoon.cmd.op:
+  default: op
