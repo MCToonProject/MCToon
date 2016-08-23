@@ -8,10 +8,23 @@ author: yuu528
 
 commands:
  mcto:
-  description: MCToon OPコマンド
+  description: MCToonのOPコマンドです
   usage: /mcto <args>
   permission: mctoon.cmd.op
+
+ reg:
+  description: サーバーに登録するためのコマンドです
+  usage: /reg <パスワード>
+  permission: mctoon.cmd.guest
+
+ login:
+  description: サーバーにログインするためのコマンドです
+  usage: /login <パスワード>
+  permission: mctoon.cmd.guest
 
 permissions:
  mctoon.cmd.op:
   default: op
+
+ mctoon.cmd.guest:
+  default: true
